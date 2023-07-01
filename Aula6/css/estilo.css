@@ -1,0 +1,137 @@
+#topo{
+    width: 100%;
+    height: 30px;
+    background-color: #0c7beb;
+    position: fixed;
+}
+.largurasite{
+    width: 900px;
+    margin: auto; /* centraliza a divisão na pagina*/
+}
+#logo{
+    width: 140px;
+    height: 24px;
+    float: left;
+    margin-top: 3px;
+}
+#menu{
+    width: auto;
+    height: 24px;
+    line-height: 30px;
+    float: right;
+}
+#menu a{
+   color: aliceblue;
+   font-size: 16px;
+   text-decoration: none;
+   margin-left: 49px;
+   text-transform: uppercase;
+   
+}
+#menu a:hover{
+    text-decoration: underline;
+    background-color: #0c7beb;
+    padding: 5px 5px 6px 5px;
+    
+ }
+ body{
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(120deg,#000000d8, #0004ffda);
+
+
+ }
+#conteudohome{
+    width: 545px;
+    float: right;
+}
+h1{
+    font-size: 30px;
+    color: #0c7beb;
+}
+p{
+    
+    color: #000000;
+    text-align: justify;
+}
+
+.imghome{
+    margin-top: 70px;
+}
+.imgdesta{
+    margin-top: 5px;
+}
+.img2{
+    float: right;
+    margin-left: 30px;
+
+}
+li{
+    list-style-type: square;
+    list-style-position: outside;
+}
+.imgcontato{
+    float: right;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    margin-bottom: 100px;
+}
+
+form{
+    color: red;
+
+}
+input[type=text]{
+
+    width: 400px;
+    background-color: #eee;
+    border-style: double;
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+}
+
+
+textarea{
+    width: 400px;
+    height: 100px;
+    background-color: #eee;
+    border: solid 1px #999;
+    resize: none;
+}
+input[type=submit]{
+    background: linear-gradient(120deg,#ffffffd8, #0004ffda);
+    border: solid 1px #999;
+    height:  25px;
+    margin-top: 10px;
+    border-radius: 15%;
+
+
+}
+.social{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    margin-bottom: 100px;
+}
+
+#rodape{
+    text-align: center;
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+
+.conteudo{
+    width: 100%;
+    height: auto;
+    float: left;
+    border-bottom: 1px solid black;
+    margin-top: 85px;
+}
+
+.imgra{
+    color: azure;
+}
